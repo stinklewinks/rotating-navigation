@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/citrusworx/juice@refs/heads/main/css/juice.css">
     <title>Rotating Navigation</title>
 </head>
 <body>
     <div id="root">
-        <div id="nav-toggle">X</div>
+        <div id="nav-toggle"><fas-icon lib="solid" name="addressbook" color="icon:white-200" class="icon:sm mt:2"></fas-icon></div>
         <div class="container" id="container">
             <div class="content">
-            <h3>Beautiful Blog</h3>
-            <p>
+            <h3 class="lobster">Beautiful Blog</h3>
+            <p class="mt:3">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius impedit expedita ex ducimus, voluptatibus corporis molestias tempora odio. Dolores libero porro vero iusto. Ab tenetur nobis, mollitia ex nulla voluptate, corrupti repellendus animi soluta, adipisci enim ducimus quaerat facilis vero ut magni facere sunt debitis illum consectetur. Vel corporis recusandae, corrupti harum optio rerum, amet consectetur quis eveniet aliquam possimus quidem inventore pariatur dolorum fugiat id aut ut impedit est quasi velit eaque magnam facilis iusto! Esse qui voluptatum ex sunt reprehenderit pariatur perspiciatis ipsam sit? Eum, ipsam ducimus iste consequuntur dolores quia placeat fugit ab odio magnam molestias! Ea!
             </p>
-            <h3>Purposeful Post</h3>
-            <p>
+            <h3 class="lobster mt:5">Purposeful Post</h3>
+            <p class="mt:3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, molestiae? Exercitationem esse, eius iure impedit quasi odit dolorum et explicabo quidem repellat aspernatur illo accusantium. Ex excepturi voluptatum magni quae vero accusamus similique ducimus, itaque porro molestias accusantium quaerat minima suscipit distinctio neque temporibus, sunt possimus sequi necessitatibus exercitationem. Excepturi.
             </p>
         </div>
         </div>
         <nav class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="list:none">
+                <li class="ml:rel:4"><a href="#">Home</a></li>
+                <li class="ml:rel:4"><a href="#">About</a></li>
+                <li class="ml:rel:4"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/gh/citrusworx/juice@refs/heads/main/js/juice/icon.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

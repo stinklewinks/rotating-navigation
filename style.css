@@ -13,8 +13,8 @@
     margin-top: 5vh;
     height: 50vh;
     background-color: #fafafa;
+    overflow: visible;
     display: flex;
-    overflow-x: hidden;
     transition: transform 0.5s ease-in-out;
     transform-origin: top left;
 }
@@ -49,7 +49,7 @@
     height: 4vh;
     width: 2vw;
     border-radius: 100%;
-    background-color: blue;
+    background-color: #323aF3;
     color: white;
     text-align: center;
     position: absolute;
